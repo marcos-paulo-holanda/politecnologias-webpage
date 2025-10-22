@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import CTA from "@/components/CTA";
+import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <Services />
       <Portfolio />
       <CTA />
+      <Clients />
       <Footer />
     </div>
   );

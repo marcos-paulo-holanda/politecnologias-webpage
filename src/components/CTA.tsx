@@ -30,7 +30,7 @@ const CTA = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300 text-lg px-8"
+              className="bg-white text-primary hover:bg-white/90 transition-all duration-300 text-lg px-8 shadow-glow"
               onClick={() => window.location.href = 'tel:+5511955565014'}
             >
               <Phone className="mr-2 h-5 w-5" />

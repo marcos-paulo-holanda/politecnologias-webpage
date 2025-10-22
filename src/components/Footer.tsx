@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -24,6 +24,16 @@ const Footer = () => {
               <li className="hover:text-primary transition-colors cursor-pointer">Software Customizado</li>
               <li className="hover:text-primary transition-colors cursor-pointer">Ciência de Dados</li>
               <li className="hover:text-primary transition-colors cursor-pointer">Automação RPA</li>
+            </ul>
+          </div>
+
+          {/* Address */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-foreground">Endereço</h3>
+            <ul className="space-y-2 text-muted-foreground">
+              <li className="hover:text-primary transition-colors cursor-pointer">Avenida Paulista, 1106 - Bela Vista</li>
+              <li className="hover:text-primary transition-colors cursor-pointer">São Paulo, SP</li>
+              <li className="hover:text-primary transition-colors cursor-pointer">01310-914</li>
             </ul>
           </div>
 
