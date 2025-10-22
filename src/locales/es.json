@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title": "Varias Tecnologías para Tu Negocio",
+    "subtitle": "Soluciones completas en Business Intelligence, Software Personalizado, Ciencia de Datos y Automatizaciones RPA",
+    "ctaPrimary": "Descubre nuestras soluciones",
+    "ctaSecondary": "Ver portafolio"
+  },
+  "services": {
+    "title": "Nuestras Soluciones",
+    "subtitle": "Ofrecemos un portafolio completo de servicios para digitalizar y optimizar tu negocio",
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Paneles interactivos y dashboards personalizados que transforman tus datos en insights accionables para la toma de decisiones estratégicas."
+    },
+    "customSoftware": {
+      "title": "Software a Medida",
+      "description": "Desarrollo de aplicaciones personalizadas y escalables que satisfacen exactamente las necesidades únicas de tu negocio."
+    },
+    "dataScience": {
+      "title": "Ciencia de Datos",
+      "description": "Proyectos de ingeniería y análisis de datos, machine learning e inteligencia artificial para extraer el máximo valor de tu información."
+    },
+    "rpaAutomation": {
+      "title": "Automatización RPA",
+      "description": "Automatización de procesos robóticos para eliminar tareas repetitivas, aumentar la eficiencia y reducir errores operacionales."
+    }
+  },
+  "footer": {
+    "tagline": "Varias tecnologías para tu negocio",
+    "services": "Servicios",
+    "address": "Dirección",
+    "contact": "Contacto",
+    "copyright": "Todos los derechos reservados.",
+    "businessIntelligence": "Business Intelligence",
+    "customSoftware": "Software Personalizado",
+    "dataScience": "Ciencia de Datos",
+    "rpaAutomation": "Automatización RPA"
+  },
+  "portfolio": {
+    "title": "Portafolio de Proyectos",
+    "subtitle": "Conoce algunos de los proyectos que hemos desarrollado para nuestros clientes"
+  },
+  "cta": {
+    "title": "¿Listo para Transformar tu Negocio?",
+    "subtitle": "Contáctanos y descubre cómo nuestras soluciones pueden impulsar tus resultados",
+    "emailButton": "Enviar Email",
+    "phoneButton": "Llamar Ahora"
+  },
+  "clients": {
+    "title": "Nuestros Clientes",
+    "subtitle": "Empresas que confían en nuestros servicios y soluciones tecnológicas",
+    "moreClients": "Y muchos otros clientes satisfechos..."
+  },
+  "common": {
+    "language": "Idioma",
+    "portuguese": "Português",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

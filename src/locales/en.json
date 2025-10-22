@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title": "Various Technologies for Your Business",
+    "subtitle": "Complete solutions in Business Intelligence, Custom Software, Data Science and RPA Automations",
+    "ctaPrimary": "Discover our solutions",
+    "ctaSecondary": "View portfolio"
+  },
+  "services": {
+    "title": "Our Solutions",
+    "subtitle": "We offer a complete portfolio of services to digitize and optimize your business",
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Interactive panels and customized dashboards that transform your data into actionable insights for strategic decision making."
+    },
+    "customSoftware": {
+      "title": "Custom Software",
+      "description": "Development of personalized and scalable applications that meet exactly the unique needs of your business."
+    },
+    "dataScience": {
+      "title": "Data Science",
+      "description": "Data engineering and analysis projects, machine learning and artificial intelligence to extract maximum value from your information."
+    },
+    "rpaAutomation": {
+      "title": "RPA Automation",
+      "description": "Robotic process automation to eliminate repetitive tasks, increase efficiency and reduce operational errors."
+    }
+  },
+  "footer": {
+    "tagline": "Various technologies for your business",
+    "services": "Services",
+    "address": "Address",
+    "contact": "Contact",
+    "copyright": "All rights reserved.",
+    "businessIntelligence": "Business Intelligence",
+    "customSoftware": "Custom Software",
+    "dataScience": "Data Science",
+    "rpaAutomation": "RPA Automation"
+  },
+  "portfolio": {
+    "title": "Project Portfolio",
+    "subtitle": "Discover some of the projects we have developed for our clients"
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Contact us and discover how our solutions can boost your results",
+    "emailButton": "Send Email",
+    "phoneButton": "Call Now"
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Companies that trust our services and technological solutions",
+    "moreClients": "And many other satisfied clients..."
+  },
+  "common": {
+    "language": "Language",
+    "portuguese": "Português",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

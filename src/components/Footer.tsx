@@ -1,7 +1,10 @@
 import { Linkedin, Instagram, Mail, Phone } from "lucide-react";
 import politecLogo from "@/assets/politec-logo.png";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4">
@@ -12,24 +15,24 @@ const Footer = () => {
               <img src={politecLogo} alt="Politec Desenvolvimentos" className="h-12 w-auto" />
             </div>
             <p className="text-muted-foreground">
-              Várias tecnologias para seu negócio
+              {t('footer.tagline')}
             </p>
           </div>
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-foreground">Serviços</h3>
+            <h3 className="text-lg font-semibold mb-4 text-foreground">{t('footer.services')}</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li className="hover:text-primary transition-colors cursor-pointer">Business Intelligence</li>
-              <li className="hover:text-primary transition-colors cursor-pointer">Software Customizado</li>
-              <li className="hover:text-primary transition-colors cursor-pointer">Ciência de Dados</li>
-              <li className="hover:text-primary transition-colors cursor-pointer">Automação RPA</li>
+              <li className="hover:text-primary transition-colors cursor-pointer">{t('footer.businessIntelligence')}</li>
+              <li className="hover:text-primary transition-colors cursor-pointer">{t('footer.customSoftware')}</li>
+              <li className="hover:text-primary transition-colors cursor-pointer">{t('footer.dataScience')}</li>
+              <li className="hover:text-primary transition-colors cursor-pointer">{t('footer.rpaAutomation')}</li>
             </ul>
           </div>
 
           {/* Address */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-foreground">Endereço</h3>
+            <h3 className="text-lg font-semibold mb-4 text-foreground">{t('footer.address')}</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li className="hover:text-primary transition-colors cursor-pointer">Avenida Paulista, 1106 - Bela Vista</li>
               <li className="hover:text-primary transition-colors cursor-pointer">São Paulo, SP</li>
@@ -39,7 +42,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-foreground">Contato</h3>
+            <h3 className="text-lg font-semibold mb-4 text-foreground">{t('footer.contact')}</h3>
             <div className="space-y-3">
               <p className="text-muted-foreground flex items-center gap-2 text-sm">
                 <Mail className="h-4 w-4 flex-shrink-0" />
@@ -72,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Politec Desenvolvimentos. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Politec Desenvolvimentos. {t('footer.copyright')}</p>
         </div>
       </div>
     </footer>

@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title": "Várias Tecnologias para Seu Negócio",
+    "subtitle": "Soluções completas em Business Intelligence, Software Customizável, Ciência de Dados e Automações RPA",
+    "ctaPrimary": "Conheça nossas soluções",
+    "ctaSecondary": "Ver portfólio"
+  },
+  "services": {
+    "title": "Nossas Soluções",
+    "subtitle": "Oferecemos um portfólio completo de serviços para digitalizar e otimizar seu negócio",
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Painéis interativos e dashboards customizados que transformam seus dados em insights acionáveis para tomada de decisão estratégica."
+    },
+    "customSoftware": {
+      "title": "Software Sob Medida",
+      "description": "Desenvolvimento de aplicações personalizadas e escaláveis que atendem exatamente às necessidades únicas do seu negócio."
+    },
+    "dataScience": {
+      "title": "Ciência de Dados",
+      "description": "Projetos de engenharia e análise de dados, machine learning e inteligência artificial para extrair valor máximo das suas informações."
+    },
+    "rpaAutomation": {
+      "title": "Automação RPA",
+      "description": "Automação de processos robóticos para eliminar tarefas repetitivas, aumentar eficiência e reduzir erros operacionais."
+    }
+  },
+  "footer": {
+    "tagline": "Várias tecnologias para seu negócio",
+    "services": "Serviços",
+    "address": "Endereço",
+    "contact": "Contato",
+    "copyright": "Todos os direitos reservados.",
+    "businessIntelligence": "Business Intelligence",
+    "customSoftware": "Software Customizado",
+    "dataScience": "Ciência de Dados",
+    "rpaAutomation": "Automação RPA"
+  },
+  "portfolio": {
+    "title": "Portfólio de Projetos",
+    "subtitle": "Conheça alguns dos projetos que desenvolvemos para nossos clientes"
+  },
+  "cta": {
+    "title": "Pronto para Transformar seu Negócio?",
+    "subtitle": "Entre em contato conosco e descubra como nossas soluções podem impulsionar seus resultados",
+    "emailButton": "Enviar Email",
+    "phoneButton": "Ligar Agora"
+  },
+  "clients": {
+    "title": "Nossos Clientes",
+    "subtitle": "Empresas que confiam em nossos serviços e soluções tecnológicas",
+    "moreClients": "E muitos outros clientes satisfeitos..."
+  },
+  "common": {
+    "language": "Idioma",
+    "portuguese": "Português",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

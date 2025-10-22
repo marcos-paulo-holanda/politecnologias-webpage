@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const CTA = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="contato" className="py-24 bg-gradient-primary relative overflow-hidden">
       {/* Decorative elements */}
@@ -13,10 +16,10 @@ const CTA = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-            Pronto para Transformar seu Negócio?
+            {t('cta.title')}
           </h2>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Entre em contato conosco e descubra como nossas soluções podem impulsionar seus resultados
+            {t('cta.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
@@ -25,7 +28,7 @@ const CTA = () => {
               onClick={() => window.location.href = 'mailto:contato@politecnologias.com.br'}
             >
               <Mail className="mr-2 h-5 w-5" />
-              Enviar Email
+              {t('cta.emailButton')}
             </Button>
             <Button 
               size="lg" 
@@ -34,7 +37,7 @@ const CTA = () => {
               onClick={() => window.location.href = 'tel:+5511955565014'}
             >
               <Phone className="mr-2 h-5 w-5" />
-              Ligar Agora
+              {t('cta.phoneButton')}
             </Button>
           </div>
         </div>

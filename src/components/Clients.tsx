@@ -1,6 +1,9 @@
 import { Card } from "@/components/ui/card";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Clients = () => {
+  const { t } = useLanguage();
+  
   // Array de clientes - você pode adicionar mais conforme necessário
   const clients = [
     {
@@ -46,10 +49,10 @@ const Clients = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">
-            Nossos Clientes
+            {t('clients.title')}
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Empresas que confiam em nossos serviços e soluções tecnológicas
+            {t('clients.subtitle')}
           </p>
         </div>
 
@@ -88,7 +91,7 @@ const Clients = () => {
         {/* Seção adicional para mostrar mais clientes se necessário */}
         <div className="text-center mt-8">
           <p className="text-muted-foreground">
-            E muitos outros clientes satisfeitos...
+            {t('clients.moreClients')}
           </p>
         </div>
       </div>

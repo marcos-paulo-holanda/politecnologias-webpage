@@ -1,43 +1,45 @@
 import { BarChart3, Code2, Brain, Zap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-
-const services = [
-  {
-    icon: BarChart3,
-    title: "Business Intelligence",
-    description: "Painéis interativos e dashboards customizados que transformam seus dados em insights acionáveis para tomada de decisão estratégica.",
-    gradient: "from-[hsl(170,45%,45%)] to-[hsl(170,45%,55%)]",
-  },
-  {
-    icon: Code2,
-    title: "Software Sob Medida",
-    description: "Desenvolvimento de aplicações personalizadas e escaláveis que atendem exatamente às necessidades únicas do seu negócio.",
-    gradient: "from-[hsl(200,60%,18%)] to-[hsl(200,60%,28%)]",
-  },
-  {
-    icon: Brain,
-    title: "Ciência de Dados",
-    description: "Projetos de engenharia e análise de dados, machine learning e inteligência artificial para extrair valor máximo das suas informações.",
-    gradient: "from-[hsl(170,50%,50%)] to-[hsl(170,50%,40%)]",
-  },
-  {
-    icon: Zap,
-    title: "Automação RPA",
-    description: "Automação de processos robóticos para eliminar tarefas repetitivas, aumentar eficiência e reduzir erros operacionais.",
-    gradient: "from-[hsl(170,45%,40%)] to-[hsl(200,60%,22%)]",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Services = () => {
+  const { t } = useLanguage();
+
+  const services = [
+    {
+      icon: BarChart3,
+      title: t('services.businessIntelligence.title'),
+      description: t('services.businessIntelligence.description'),
+      gradient: "from-[hsl(170,45%,45%)] to-[hsl(170,45%,55%)]",
+    },
+    {
+      icon: Code2,
+      title: t('services.customSoftware.title'),
+      description: t('services.customSoftware.description'),
+      gradient: "from-[hsl(200,60%,18%)] to-[hsl(200,60%,28%)]",
+    },
+    {
+      icon: Brain,
+      title: t('services.dataScience.title'),
+      description: t('services.dataScience.description'),
+      gradient: "from-[hsl(170,50%,50%)] to-[hsl(170,50%,40%)]",
+    },
+    {
+      icon: Zap,
+      title: t('services.rpaAutomation.title'),
+      description: t('services.rpaAutomation.description'),
+      gradient: "from-[hsl(170,45%,40%)] to-[hsl(200,60%,22%)]",
+    },
+  ];
   return (
     <section id="servicos" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            Nossas Soluções
+            {t('services.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Oferecemos um portfólio completo de serviços para digitalizar e otimizar seu negócio
+            {t('services.subtitle')}
           </p>
         </div>
 
