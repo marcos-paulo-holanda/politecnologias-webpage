@@ -17,13 +17,13 @@ const Clients = () => {
     },
     {
       id: 3,
-      name: "Cliente 3",
+      name: "Poli-USP",
       logo: "/src/assets/clients/cliente-3.png", 
       website: "https://www.poli.usp.br/"
     },
     {
       id: 4,
-      name: "Cliente 4",
+      name: "LabRisco",
       logo: "/src/assets/clients/cliente-4.png",
       website: "https://www.labrisco.usp.br/"
     },
