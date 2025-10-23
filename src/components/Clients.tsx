@@ -1,5 +1,11 @@
 import { Card } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
+import cliente1 from "@/assets/clients/cliente-1.png";
+import cliente2 from "@/assets/clients/cliente-2.png";
+import cliente3 from "@/assets/clients/cliente-3.png";
+import cliente4 from "@/assets/clients/cliente-4.png";
+import cliente5 from "@/assets/clients/cliente-5.png";
+import cliente6 from "@/assets/clients/cliente-6.png";
 
 const Clients = () => {
   const { t } = useLanguage();
@@ -9,37 +15,37 @@ const Clients = () => {
     {
       id: 1,
       name: "Grupo Roncador",
-      logo: "/src/assets/clients/cliente-1.png", // Substitua pelo caminho real da imagem
+      logo: cliente1, // Substitua pelo caminho real da imagem
       website: "https://www.gruporoncador.com.br/"
     },
     {
       id: 2,
       name: "Ferroport", 
-      logo: "/src/assets/clients/cliente-2.png",
+      logo: cliente2,
       website: "https://ferroport.com.br/"
     },
     {
       id: 3,
       name: "Poli-USP",
-      logo: "/src/assets/clients/cliente-3.png", 
+      logo: cliente3, 
       website: "https://www.poli.usp.br/"
     },
     {
       id: 4,
       name: "LabRisco",
-      logo: "/src/assets/clients/cliente-4.png",
+      logo: cliente4,
       website: "https://www.labrisco.usp.br/"
     },
     {
       id: 5,
       name: "TUV Brasil",
-      logo: "/src/assets/clients/cliente-5.png",
+      logo: cliente5,
       website: "https://www.tuv.com/brasil/br/"
     },
     {
       id: 6,
       name: "ProjeL Engenharia",
-      logo: "/src/assets/clients/cliente-6.png",
+      logo: cliente6,
       website: "https://projelengenharia.com.br/"
     }
   ];
