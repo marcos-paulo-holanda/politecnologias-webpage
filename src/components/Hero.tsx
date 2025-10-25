@@ -1,7 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
-import LanguageSelector from "./LanguageSelector";
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -12,10 +11,7 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-secondary">
-      {/* Language Selector */}
-      <div className="absolute top-6 right-6 z-20">
-        <LanguageSelector />
-      </div>
+      
       
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

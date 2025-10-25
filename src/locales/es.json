@@ -56,5 +56,261 @@
     "portuguese": "Português",
     "english": "English",
     "spanish": "Español"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Lo que Hacemos",
+    "segments": "Segmentos"
+  },
+  "about": {
+    "hero": {
+      "title": "Sobre Politec",
+      "subtitle": "Transformando negocios a través de la tecnología con soluciones innovadoras y personalizadas"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Democratizar el acceso a la tecnología avanzada, ofreciendo soluciones personalizadas que impulsan el crecimiento y la eficiencia de nuestros clientes."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Ser reconocida como la principal referencia en soluciones tecnológicas innovadoras, contribuyendo a la transformación digital del mercado."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "Excelencia técnica, innovación constante, transparencia en las relaciones y compromiso con el éxito de nuestros clientes."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "subtitle": "Un viaje de innovación y crecimiento",
+      "heading": "Construyendo el Futuro de la Tecnología",
+      "description1": "Fundada con la visión de revolucionar el mercado tecnológico, Politec nació de la pasión por crear soluciones que realmente marcan la diferencia.",
+      "description2": "A lo largo de los años, hemos desarrollado experiencia en diversas áreas tecnológicas, siempre manteniendo el enfoque en la calidad y la satisfacción del cliente.",
+      "description3": "Hoy, somos una empresa consolidada que continúa innovando y expandiendo nuestros horizontes para satisfacer las necesidades del mercado en constante evolución."
+    },
+    "stats": {
+      "projects": "Proyectos Completados",
+      "clients": "Clientes Satisfechos",
+      "years": "Años de Experiencia",
+      "satisfaction": "Satisfacción"
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Profesionales calificados y apasionados por la tecnología",
+      "experts": {
+        "title": "Especialistas Calificados",
+        "description": "Nuestro equipo está compuesto por profesionales altamente calificados y certificados en las principales tecnologías del mercado."
+      },
+      "certified": {
+        "title": "Certificaciones",
+        "description": "Mantenemos certificaciones en las principales plataformas tecnológicas para garantizar la calidad de nuestros servicios."
+      },
+      "innovative": {
+        "title": "Mentalidad Innovadora",
+        "description": "Siempre buscamos las mejores prácticas y las tecnologías más recientes para entregar soluciones de vanguardia."
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Soluciones tecnológicas completas para impulsar tu negocio"
+    },
+    "title": "Lo que Hacemos",
+    "subtitle": "Ofrecemos un portafolio completo de servicios para digitalizar y optimizar tu negocio",
+    "learnMore": "Saber Más",
+    "process": {
+      "title": "Nuestro Proceso",
+      "subtitle": "Una metodología probada para garantizar el éxito de tus proyectos",
+      "discovery": {
+        "title": "Descubrimiento",
+        "description": "Entendemos profundamente tus necesidades y objetivos de negocio."
+      },
+      "planning": {
+        "title": "Planificación",
+        "description": "Desarrollamos una estrategia detallada y un roadmap personalizado."
+      },
+      "development": {
+        "title": "Desarrollo",
+        "description": "Implementamos la solución con calidad y siguiendo las mejores prácticas."
+      },
+      "deployment": {
+        "title": "Implementación",
+        "description": "Entregamos la solución y ofrecemos soporte continuo para optimización."
+      }
+    },
+    "technologies": {
+      "title": "Tecnologías que Utilizamos",
+      "subtitle": "Trabajamos con las principales tecnologías del mercado",
+      "frontend": {
+        "title": "Frontend"
+      },
+      "backend": {
+        "title": "Backend"
+      },
+      "data": {
+        "title": "Datos y Analytics"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Proyecto?",
+      "subtitle": "Contáctanos y descubre cómo podemos ayudar a tu negocio",
+      "contact": "Contáctanos",
+      "portfolio": "Ver Portafolio"
+    },
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Paneles interactivos y dashboards personalizados que transforman tus datos en insights accionables para la toma de decisiones estratégicas.",
+      "features": {
+        "dashboards": "Dashboards Interactivos",
+        "reports": "Reportes Automatizados",
+        "analytics": "Análisis Predictivo",
+        "kpi": "Indicadores de Rendimiento"
+      }
+    },
+    "customSoftware": {
+      "title": "Software a Medida",
+      "description": "Desarrollo de aplicaciones personalizadas y escalables que satisfacen exactamente las necesidades únicas de tu negocio.",
+      "features": {
+        "web": "Aplicaciones Web",
+        "mobile": "Apps Móviles",
+        "api": "APIs e Integraciones",
+        "integration": "Sistemas Integrados"
+      }
+    },
+    "dataScience": {
+      "title": "Ciencia de Datos",
+      "description": "Proyectos de ingeniería y análisis de datos, machine learning e inteligencia artificial para extraer el máximo valor de tu información.",
+      "features": {
+        "ml": "Machine Learning",
+        "ai": "Inteligencia Artificial",
+        "prediction": "Modelos Predictivos",
+        "optimization": "Optimización de Procesos"
+      }
+    },
+    "rpaAutomation": {
+      "title": "Automatización RPA",
+      "description": "Automatización de procesos robóticos para eliminar tareas repetitivas, aumentar la eficiencia y reducir errores operacionales.",
+      "features": {
+        "automation": "Automatización de Procesos",
+        "workflow": "Flujos de Trabajo",
+        "integration": "Integración de Sistemas",
+        "monitoring": "Monitoreo Continuo"
+      }
+    }
+  },
+  "segments": {
+    "hero": {
+      "title": "Segmentos de Mercado",
+      "subtitle": "Soluciones especializadas para diferentes sectores de la economía"
+    },
+    "title": "Atendemos Diversos Segmentos",
+    "subtitle": "Desarrollamos soluciones personalizadas para las necesidades específicas de cada sector",
+    "learnMore": "Conocer Soluciones",
+    "benefits": {
+      "title": "Por qué Elegir Nuestras Soluciones",
+      "subtitle": "Ventajas competitivas para tu segmento",
+      "growth": {
+        "title": "Crecimiento Acelerado",
+        "description": "Impulsa el crecimiento de tu negocio con soluciones tecnológicas efectivas."
+      },
+      "experience": {
+        "title": "Experiencia Comprobada",
+        "description": "Años de experiencia desarrollando soluciones para diferentes segmentos de mercado."
+      },
+      "customization": {
+        "title": "Personalización Total",
+        "description": "Soluciones adaptadas a las necesidades específicas de tu segmento y negocio."
+      },
+      "efficiency": {
+        "title": "Eficiencia Operacional",
+        "description": "Optimiza procesos y aumenta la productividad con nuestras soluciones."
+      }
+    },
+    "success": {
+      "title": "Casos de Éxito",
+      "subtitle": "Resultados reales alcanzados por nuestros clientes",
+      "case1": {
+        "title": "Empresa de Retail",
+        "description": "Implementación de sistema de BI que revolucionó el análisis de ventas.",
+        "result": "Eficiencia"
+      },
+      "case2": {
+        "title": "Industria Manufacturera",
+        "description": "Automatización de procesos que redujo costos operacionales significativamente.",
+        "result": "Reducción de Costos"
+      },
+      "case3": {
+        "title": "Clínica Médica",
+        "description": "Sistema de gestión que mejoró la atención y organización de pacientes.",
+        "result": "Satisfacción"
+      }
+    },
+    "cta": {
+      "title": "¿Quieres Soluciones para tu Segmento?",
+      "subtitle": "Contáctanos y descubre cómo podemos ayudar a tu sector específico",
+      "contact": "Contáctanos",
+      "consultation": "Agendar Consultoría"
+    },
+    "corporate": {
+      "title": "Empresarial",
+      "description": "Soluciones completas para empresas de todos los tamaños, desde startups hasta grandes corporaciones.",
+      "solutions": {
+        "erp": "Sistemas ERP",
+        "crm": "Gestión de Relaciones",
+        "bi": "Business Intelligence",
+        "automation": "Automatización de Procesos"
+      }
+    },
+    "retail": {
+      "title": "Retail",
+      "description": "Tecnologías para optimizar ventas, gestión de inventario y experiencia del cliente.",
+      "solutions": {
+        "ecommerce": "E-commerce",
+        "inventory": "Gestión de Inventario",
+        "analytics": "Analytics de Ventas",
+        "loyalty": "Programas de Fidelidad"
+      }
+    },
+    "healthcare": {
+      "title": "Salud",
+      "description": "Soluciones para clínicas, hospitales y profesionales de la salud para mejorar la atención.",
+      "solutions": {
+        "emr": "Historia Clínica Electrónica",
+        "telemedicine": "Telemedicina",
+        "analytics": "Analytics Médico",
+        "compliance": "Cumplimiento Regulatorio"
+      }
+    },
+    "education": {
+      "title": "Educación",
+      "description": "Plataformas y sistemas para instituciones educativas modernizar sus procesos.",
+      "solutions": {
+        "lms": "Plataforma de Enseñanza",
+        "analytics": "Analytics Educacional",
+        "virtual": "Ambiente Virtual",
+        "management": "Gestión Académica"
+      }
+    },
+    "manufacturing": {
+      "title": "Manufactura",
+      "description": "Soluciones para industrias optimizar producción y control de calidad.",
+      "solutions": {
+        "mes": "Sistema MES",
+        "iot": "Internet de las Cosas",
+        "quality": "Control de Calidad",
+        "maintenance": "Mantenimiento Predictivo"
+      }
+    },
+    "logistics": {
+      "title": "Logística",
+      "description": "Tecnologías para optimizar transporte, almacenamiento y distribución.",
+      "solutions": {
+        "tms": "Sistema TMS",
+        "tracking": "Rastreo",
+        "optimization": "Optimización de Rutas",
+        "warehouse": "Gestión de Almacén"
+      }
+    }
   }
 }

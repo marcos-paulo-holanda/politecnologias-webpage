@@ -56,5 +56,261 @@
     "portuguese": "Português",
     "english": "English",
     "spanish": "Español"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "What We Do",
+    "segments": "Segments"
+  },
+  "about": {
+    "hero": {
+      "title": "About Politec",
+      "subtitle": "Transforming businesses through technology with innovative and personalized solutions"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Democratize access to advanced technology by offering personalized solutions that drive growth and efficiency for our clients."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be recognized as the leading reference in innovative technological solutions, contributing to the digital transformation of the market."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Technical excellence, constant innovation, transparency in relationships, and commitment to our clients' success."
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "A journey of innovation and growth",
+      "heading": "Building the Future of Technology",
+      "description1": "Founded with the vision to revolutionize the technology market, Politec was born from the passion to create solutions that truly make a difference.",
+      "description2": "Over the years, we have developed expertise in various technological areas, always maintaining focus on quality and customer satisfaction.",
+      "description3": "Today, we are a consolidated company that continues to innovate and expand our horizons to meet the needs of an ever-evolving market."
+    },
+    "stats": {
+      "projects": "Completed Projects",
+      "clients": "Satisfied Clients",
+      "years": "Years of Experience",
+      "satisfaction": "Satisfaction"
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Qualified professionals passionate about technology",
+      "experts": {
+        "title": "Qualified Specialists",
+        "description": "Our team consists of highly qualified professionals certified in the main market technologies."
+      },
+      "certified": {
+        "title": "Certifications",
+        "description": "We maintain certifications in the main technological platforms to ensure the quality of our services."
+      },
+      "innovative": {
+        "title": "Innovative Mindset",
+        "description": "We always seek the best practices and latest technologies to deliver cutting-edge solutions."
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Complete technological solutions to boost your business"
+    },
+    "title": "What We Do",
+    "subtitle": "We offer a complete portfolio of services to digitize and optimize your business",
+    "learnMore": "Learn More",
+    "process": {
+      "title": "Our Process",
+      "subtitle": "A proven methodology to ensure the success of your projects",
+      "discovery": {
+        "title": "Discovery",
+        "description": "We deeply understand your needs and business objectives."
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "We develop a detailed strategy and personalized roadmap."
+      },
+      "development": {
+        "title": "Development",
+        "description": "We implement the solution with quality and following best practices."
+      },
+      "deployment": {
+        "title": "Implementation",
+        "description": "We deliver the solution and offer continuous support for optimization."
+      }
+    },
+    "technologies": {
+      "title": "Technologies We Use",
+      "subtitle": "We work with the main market technologies",
+      "frontend": {
+        "title": "Frontend"
+      },
+      "backend": {
+        "title": "Backend"
+      },
+      "data": {
+        "title": "Data & Analytics"
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Contact us and discover how we can help your business",
+      "contact": "Contact Us",
+      "portfolio": "View Portfolio"
+    },
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Interactive dashboards and customized panels that transform your data into actionable insights for strategic decision making.",
+      "features": {
+        "dashboards": "Interactive Dashboards",
+        "reports": "Automated Reports",
+        "analytics": "Predictive Analytics",
+        "kpi": "Performance Indicators"
+      }
+    },
+    "customSoftware": {
+      "title": "Custom Software",
+      "description": "Development of personalized and scalable applications that meet exactly the unique needs of your business.",
+      "features": {
+        "web": "Web Applications",
+        "mobile": "Mobile Apps",
+        "api": "APIs and Integrations",
+        "integration": "Integrated Systems"
+      }
+    },
+    "dataScience": {
+      "title": "Data Science",
+      "description": "Data engineering and analysis projects, machine learning and artificial intelligence to extract maximum value from your information.",
+      "features": {
+        "ml": "Machine Learning",
+        "ai": "Artificial Intelligence",
+        "prediction": "Predictive Models",
+        "optimization": "Process Optimization"
+      }
+    },
+    "rpaAutomation": {
+      "title": "RPA Automation",
+      "description": "Robotic process automation to eliminate repetitive tasks, increase efficiency and reduce operational errors.",
+      "features": {
+        "automation": "Process Automation",
+        "workflow": "Workflows",
+        "integration": "System Integration",
+        "monitoring": "Continuous Monitoring"
+      }
+    }
+  },
+  "segments": {
+    "hero": {
+      "title": "Market Segments",
+      "subtitle": "Specialized solutions for different sectors of the economy"
+    },
+    "title": "We Serve Various Segments",
+    "subtitle": "We develop personalized solutions for the specific needs of each sector",
+    "learnMore": "Learn About Solutions",
+    "benefits": {
+      "title": "Why Choose Our Solutions",
+      "subtitle": "Competitive advantages for your segment",
+      "growth": {
+        "title": "Accelerated Growth",
+        "description": "Boost your business growth with effective technological solutions."
+      },
+      "experience": {
+        "title": "Proven Experience",
+        "description": "Years of experience developing solutions for different market segments."
+      },
+      "customization": {
+        "title": "Total Customization",
+        "description": "Solutions adapted to the specific needs of your segment and business."
+      },
+      "efficiency": {
+        "title": "Operational Efficiency",
+        "description": "Optimize processes and increase productivity with our solutions."
+      }
+    },
+    "success": {
+      "title": "Success Stories",
+      "subtitle": "Real results achieved by our clients",
+      "case1": {
+        "title": "Retail Company",
+        "description": "Implementation of BI system that revolutionized sales analysis.",
+        "result": "Efficiency"
+      },
+      "case2": {
+        "title": "Manufacturing Industry",
+        "description": "Process automation that significantly reduced operational costs.",
+        "result": "Cost Reduction"
+      },
+      "case3": {
+        "title": "Medical Clinic",
+        "description": "Management system that improved patient care and organization.",
+        "result": "Satisfaction"
+      }
+    },
+    "cta": {
+      "title": "Want Solutions for Your Segment?",
+      "subtitle": "Contact us and discover how we can help your specific sector",
+      "contact": "Contact Us",
+      "consultation": "Schedule Consultation"
+    },
+    "corporate": {
+      "title": "Corporate",
+      "description": "Complete solutions for companies of all sizes, from startups to large corporations.",
+      "solutions": {
+        "erp": "ERP Systems",
+        "crm": "Relationship Management",
+        "bi": "Business Intelligence",
+        "automation": "Process Automation"
+      }
+    },
+    "retail": {
+      "title": "Retail",
+      "description": "Technologies to optimize sales, inventory management and customer experience.",
+      "solutions": {
+        "ecommerce": "E-commerce",
+        "inventory": "Inventory Management",
+        "analytics": "Sales Analytics",
+        "loyalty": "Loyalty Programs"
+      }
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "description": "Solutions for clinics, hospitals and healthcare professionals to improve care.",
+      "solutions": {
+        "emr": "Electronic Medical Records",
+        "telemedicine": "Telemedicine",
+        "analytics": "Medical Analytics",
+        "compliance": "Regulatory Compliance"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "description": "Platforms and systems for educational institutions to modernize their processes.",
+      "solutions": {
+        "lms": "Learning Platform",
+        "analytics": "Educational Analytics",
+        "virtual": "Virtual Environment",
+        "management": "Academic Management"
+      }
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "description": "Solutions for industries to optimize production and quality control.",
+      "solutions": {
+        "mes": "MES System",
+        "iot": "Internet of Things",
+        "quality": "Quality Control",
+        "maintenance": "Predictive Maintenance"
+      }
+    },
+    "logistics": {
+      "title": "Logistics",
+      "description": "Technologies to optimize transportation, warehousing and distribution.",
+      "solutions": {
+        "tms": "TMS System",
+        "tracking": "Tracking",
+        "optimization": "Route Optimization",
+        "warehouse": "Warehouse Management"
+      }
+    }
   }
 }
