@@ -4,6 +4,7 @@ import LanguageSelector from "./LanguageSelector";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import politecLogo from "@/assets/politec-logo.png";
 
 const Navigation = () => {
   const { t } = useTranslation();
@@ -28,7 +29,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="/src/assets/politec-logo.png"
+              src={politecLogo}
               alt="Politec Logo"
               className="h-8 w-auto"
             />

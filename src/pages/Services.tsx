@@ -145,10 +145,10 @@ const Services = () => {
                       </div>
                     ))}
                   </div>
-                  <Button className="mt-6 w-full" variant="outline">
+                  {/* <Button className="mt-6 w-full" variant="outline">
                     {t("services.learnMore")}
                     <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  </Button> */}
                 </CardContent>
               </Card>
             ))}
@@ -253,14 +253,14 @@ const Services = () => {
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             {t("services.cta.subtitle")}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary">
               {t("services.cta.contact")}
             </Button>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
               {t("services.cta.portfolio")}
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 

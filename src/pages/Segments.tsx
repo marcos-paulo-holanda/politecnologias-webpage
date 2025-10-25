@@ -185,10 +185,10 @@ const Segments = () => {
                       </div>
                     ))}
                   </div>
-                  <Button className="w-full" variant="outline" size="sm">
+                  {/* <Button className="w-full" variant="outline" size="sm">
                     {t("segments.learnMore")}
                     <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  </Button> */}
                 </CardContent>
               </Card>
             ))}
@@ -296,14 +296,14 @@ const Segments = () => {
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             {t("segments.cta.subtitle")}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary">
               {t("segments.cta.contact")}
             </Button>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
               {t("segments.cta.consultation")}
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
