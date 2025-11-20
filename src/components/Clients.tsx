@@ -36,18 +36,18 @@ const Clients = () => {
       logo: cliente4,
       website: "https://www.labrisco.usp.br/"
     },
-    {
-      id: 5,
-      name: "TUV Brasil",
-      logo: cliente5,
-      website: "https://www.tuv.com/brasil/br/"
-    },
-    {
-      id: 6,
-      name: "ProjeL Engenharia",
-      logo: cliente6,
-      website: "https://projelengenharia.com.br/"
-    }
+    // {
+    //   id: 5,
+    //   name: "TUV Brasil",
+    //   logo: cliente5,
+    //   website: "https://www.tuv.com/brasil/br/"
+    // },
+    // {
+    //   id: 6,
+    //   name: "ProjeL Engenharia",
+    //   logo: cliente6,
+    //   website: "https://projelengenharia.com.br/"
+    // }
   ];
 
   return (
