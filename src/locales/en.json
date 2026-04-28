@@ -61,7 +61,23 @@
     "home": "Home",
     "about": "About Us",
     "services": "What We Do",
-    "segments": "Segments"
+    "segments": "Segments",
+    "news": "News"
+  },
+  "news": {
+    "hero": {
+      "title": "News",
+      "subtitle": "Stay informed about Politec's latest initiatives and technological advances."
+    },
+    "newsLabel": "Latest News",
+    "carouselTitle": "Highlights from our recent actions",
+    "carouselSubtitle": "Two important updates showing our commitment to innovation and social engagement.",
+    "story1Title": "Technical visit to Microsoft",
+    "story1Date": "23/03/2026",
+    "story1Description": "Politec is constantly seeking cutting-edge technologies and solutions to deliver more innovation and results to the market. Recently, our team visited Microsoft to deepen our knowledge of Microsoft Fabric and its applications in the corporate environment. Microsoft Fabric has been transforming the way companies manage and use data, bringing together in a single platform capabilities such as data engineering, business intelligence, data science, real-time integration, and governance. Among its key advantages are native integrations with Power BI, Azure, Microsoft 365, ERPs, CRMs, and various databases, enabling different systems to connect within a single, modern, and scalable ecosystem.",
+    "story2Title": "Sponsorship for Escola Politécnica athletics",
+    "story2Date": "15/04/2026",
+    "story2Description": "Politec signed a sponsorship agreement with the Escola Politécnica athletics team for athlete uniforms, underscoring the importance of private investment in strengthening Brazilian sports."
   },
   "about": {
     "hero": {

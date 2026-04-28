@@ -16,6 +16,7 @@ const Navigation = () => {
     { path: "/sobre-nos", label: t("navigation.about") },
     { path: "/o-que-fazemos", label: t("navigation.services") },
     { path: "/segmentos", label: t("navigation.segments") },
+    { path: "/noticias", label: t("navigation.news") },
   ];
 
   const isActive = (path: string) => {

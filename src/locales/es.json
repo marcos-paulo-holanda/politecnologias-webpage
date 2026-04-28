@@ -61,7 +61,23 @@
     "home": "Inicio",
     "about": "Sobre Nosotros",
     "services": "Lo que Hacemos",
-    "segments": "Segmentos"
+    "segments": "Segmentos",
+    "news": "Noticias"
+  },
+  "news": {
+    "hero": {
+      "title": "Noticias",
+      "subtitle": "Mantente al día con las últimas iniciativas y avances tecnológicos de Politec."
+    },
+    "newsLabel": "Últimas Noticias",
+    "carouselTitle": "Lo más destacado de nuestras acciones recientes",
+    "carouselSubtitle": "Dos actualizaciones importantes que muestran nuestro compromiso con la innovación y el compromiso social.",
+    "story1Title": "Visita técnica a Microsoft",
+    "story1Date": "23/03/2026",
+    "story1Description": "Politec continúa en constante búsqueda de tecnologías y soluciones de vanguardia para ofrecer más innovación y resultados al mercado. Recientemente, nuestro equipo visitó Microsoft para profundizar conocimientos sobre Microsoft Fabric y sus aplicaciones en el entorno corporativo. Microsoft Fabric está transformando la manera en que las empresas gestionan y utilizan los datos, reuniendo en una sola plataforma capacidades de ingeniería de datos, business intelligence, ciencia de datos, integración en tiempo real y gobernanza. Entre sus principales ventajas se encuentran las integraciones nativas con Power BI, Azure, Microsoft 365, ERPs, CRMs y diversas bases de datos, permitiendo conectar diferentes sistemas en un ecosistema único, moderno y escalable.",
+    "story2Title": "Patrocinio al atletismo de la Escola Politécnica",
+    "story2Date": "15/04/2026",
+    "story2Description": "Politec firmó un contrato de patrocinio con el equipo de atletismo de la Escola Politécnica para los uniformes de los atletas, subrayando la importancia de la inversión privada en fortalecer el deporte brasileño."
   },
   "about": {
     "hero": {
