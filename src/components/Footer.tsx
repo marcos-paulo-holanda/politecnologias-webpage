@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={politecLogo} alt="Politec Desenvolvimentos" className="h-12 w-auto" />
+              <img src={politecLogo} alt="Politec" className="h-12 w-auto" />
             </div>
             <p className="text-muted-foreground">
               {t('footer.tagline')}
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Politec Desenvolvimentos. {t('footer.copyright')}</p>
+          <p>&copy; {new Date().getFullYear()} Politec. {t('footer.copyright')}</p>
         </div>
       </div>
     </footer>

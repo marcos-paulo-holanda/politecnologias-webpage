@@ -103,11 +103,11 @@ const AboutUs = () => {
                   <div className="text-gray-600">{t("about.stats.projects")}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">30+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
                   <div className="text-gray-600">{t("about.stats.clients")}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">5+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
                   <div className="text-gray-600">{t("about.stats.years")}</div>
                 </div>
                 <div className="text-center">

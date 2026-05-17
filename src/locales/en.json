@@ -1,32 +1,100 @@
 {
   "hero": {
-    "title": "Various Technologies for Your Business",
+    "title": "The Best Technologies for Your Business",
     "subtitle": "Complete solutions in Business Intelligence, Custom Software, Data Science and RPA Automations",
     "ctaPrimary": "Discover our solutions",
-    "ctaSecondary": "View portfolio"
+    "ctaSecondary": "Services"
   },
   "services": {
-    "title": "Our Solutions",
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Complete technological solutions to boost your business"
+    },
+    "title": "What We Do",
     "subtitle": "We offer a complete portfolio of services to digitize and optimize your business",
+    "learnMore": "Learn More",
+    "process": {
+      "title": "Our Process",
+      "subtitle": "A proven methodology to ensure the success of your projects",
+      "discovery": {
+        "title": "Discovery",
+        "description": "We deeply understand your needs and business objectives."
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "We develop a detailed strategy and personalized roadmap."
+      },
+      "development": {
+        "title": "Development",
+        "description": "We implement the solution with quality and following best practices."
+      },
+      "deployment": {
+        "title": "Implementation",
+        "description": "We deliver the solution and offer continuous support for optimization."
+      }
+    },
+    "technologies": {
+      "title": "Technologies We Use",
+      "subtitle": "We work with the main market technologies",
+      "frontend": {
+        "title": "Frontend"
+      },
+      "backend": {
+        "title": "Backend"
+      },
+      "data": {
+        "title": "Data & Analytics"
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Contact us and discover how we can help your business",
+      "contact": "Contact Us",
+      "portfolio": "Services"
+    },
     "businessIntelligence": {
       "title": "Business Intelligence",
-      "description": "Interactive panels and customized dashboards that transform your data into actionable insights for strategic decision making."
+      "description": "Interactive dashboards and customized panels that transform your data into actionable insights for strategic decision making.",
+      "features": {
+        "dashboards": "Interactive Dashboards",
+        "reports": "Automated Reports",
+        "analytics": "Predictive Analytics",
+        "kpi": "Performance Indicators"
+      }
     },
     "customSoftware": {
       "title": "Custom Software",
-      "description": "Development of personalized and scalable applications that meet exactly the unique needs of your business."
+      "description": "Development of personalized and scalable applications that meet exactly the unique needs of your business.",
+      "features": {
+        "web": "Web Applications",
+        "mobile": "Mobile Apps",
+        "api": "APIs and Integrations",
+        "integration": "Integrated Systems"
+      }
     },
     "dataScience": {
       "title": "Data Science",
-      "description": "Data engineering and analysis projects, machine learning and artificial intelligence to extract maximum value from your information."
+      "description": "Data engineering and analysis projects, machine learning and artificial intelligence to extract maximum value from your information.",
+      "features": {
+        "ml": "Machine Learning",
+        "ai": "Artificial Intelligence",
+        "prediction": "Predictive Models",
+        "optimization": "Process Optimization"
+      }
     },
     "rpaAutomation": {
       "title": "RPA Automation",
-      "description": "Robotic process automation to eliminate repetitive tasks, increase efficiency and reduce operational errors."
+      "description": "Robotic process automation to eliminate repetitive tasks, increase efficiency and reduce operational errors.",
+      "features": {
+        "automation": "Process Automation",
+        "workflow": "Workflows",
+        "integration": "System Integration",
+        "monitoring": "Continuous Monitoring"
+      }
     }
   },
   "footer": {
-    "tagline": "Various technologies for your business",
+    "tagline": "The Best technologies",
     "services": "Services",
     "address": "Address",
     "contact": "Contact",
@@ -38,7 +106,29 @@
   },
   "portfolio": {
     "title": "Project Portfolio",
-    "subtitle": "Discover some of the projects we have developed for our clients"
+    "subtitle": "Discover some of the projects we have developed for our clients",
+    "items": {
+      "item1": {
+        "title": "Executive and Management Dashboard",
+        "category": "Business Intelligence",
+        "description": "Interactive panel with real-time KPIs, cash flow analysis and financial forecasting."
+      },
+      "item2": {
+        "title": "Robotic Process Automation",
+        "category": "RPA, ChatBot",
+        "description": "Bot for automating repetitive tasks and administrative processes. Chatbot for your business intelligence."
+      },
+      "item3": {
+        "title": "Custom System",
+        "category": "Custom Software",
+        "description": "Complete platform for operations management with integrated modules and an intuitive interface."
+      },
+      "item4": {
+        "title": "Applied Artificial Intelligence",
+        "category": "Data Science",
+        "description": "Artificial intelligence algorithms for forecasting and optimizing your company's operations."
+      }
+    }
   },
   "cta": {
     "title": "Ready to Transform Your Business?",
@@ -47,7 +137,7 @@
     "phoneButton": "Call Now"
   },
   "clients": {
-    "title": "Our Clients",
+    "title": "Our Partners",
     "subtitle": "Companies that trust our services and technological solutions",
     "moreClients": "And many other satisfied clients..."
   },
@@ -127,94 +217,6 @@
       }
     }
   },
-  "services": {
-    "hero": {
-      "title": "Our Services",
-      "subtitle": "Complete technological solutions to boost your business"
-    },
-    "title": "What We Do",
-    "subtitle": "We offer a complete portfolio of services to digitize and optimize your business",
-    "learnMore": "Learn More",
-    "process": {
-      "title": "Our Process",
-      "subtitle": "A proven methodology to ensure the success of your projects",
-      "discovery": {
-        "title": "Discovery",
-        "description": "We deeply understand your needs and business objectives."
-      },
-      "planning": {
-        "title": "Planning",
-        "description": "We develop a detailed strategy and personalized roadmap."
-      },
-      "development": {
-        "title": "Development",
-        "description": "We implement the solution with quality and following best practices."
-      },
-      "deployment": {
-        "title": "Implementation",
-        "description": "We deliver the solution and offer continuous support for optimization."
-      }
-    },
-    "technologies": {
-      "title": "Technologies We Use",
-      "subtitle": "We work with the main market technologies",
-      "frontend": {
-        "title": "Frontend"
-      },
-      "backend": {
-        "title": "Backend"
-      },
-      "data": {
-        "title": "Data & Analytics"
-      }
-    },
-    "cta": {
-      "title": "Ready to Start Your Project?",
-      "subtitle": "Contact us and discover how we can help your business",
-      "contact": "Contact Us",
-      "portfolio": "View Portfolio"
-    },
-    "businessIntelligence": {
-      "title": "Business Intelligence",
-      "description": "Interactive dashboards and customized panels that transform your data into actionable insights for strategic decision making.",
-      "features": {
-        "dashboards": "Interactive Dashboards",
-        "reports": "Automated Reports",
-        "analytics": "Predictive Analytics",
-        "kpi": "Performance Indicators"
-      }
-    },
-    "customSoftware": {
-      "title": "Custom Software",
-      "description": "Development of personalized and scalable applications that meet exactly the unique needs of your business.",
-      "features": {
-        "web": "Web Applications",
-        "mobile": "Mobile Apps",
-        "api": "APIs and Integrations",
-        "integration": "Integrated Systems"
-      }
-    },
-    "dataScience": {
-      "title": "Data Science",
-      "description": "Data engineering and analysis projects, machine learning and artificial intelligence to extract maximum value from your information.",
-      "features": {
-        "ml": "Machine Learning",
-        "ai": "Artificial Intelligence",
-        "prediction": "Predictive Models",
-        "optimization": "Process Optimization"
-      }
-    },
-    "rpaAutomation": {
-      "title": "RPA Automation",
-      "description": "Robotic process automation to eliminate repetitive tasks, increase efficiency and reduce operational errors.",
-      "features": {
-        "automation": "Process Automation",
-        "workflow": "Workflows",
-        "integration": "System Integration",
-        "monitoring": "Continuous Monitoring"
-      }
-    }
-  },
   "segments": {
     "hero": {
       "title": "Market Segments",
@@ -247,18 +249,18 @@
       "title": "Success Stories",
       "subtitle": "Real results achieved by our clients",
       "case1": {
-        "title": "Retail Company",
-        "description": "Implementation of BI system that revolutionized sales analysis.",
+        "title": "Mining Company",
+        "description": "Implementation of BI system that revolutionized mineral production analysis.",
         "result": "Efficiency"
       },
       "case2": {
-        "title": "Manufacturing Industry",
-        "description": "Process automation that significantly reduced operational costs.",
+        "title": "Agribusiness",
+        "description": "Chatbot for quick access to business information.",
         "result": "Cost Reduction"
       },
       "case3": {
-        "title": "Medical Clinic",
-        "description": "Management system that improved patient care and organization.",
+        "title": "Logistics Company",
+        "description": "Implementation of a tracking system that improved supply chain visibility.",
         "result": "Satisfaction"
       }
     },
@@ -279,23 +281,23 @@
       }
     },
     "retail": {
-      "title": "Retail",
-      "description": "Technologies to optimize sales, inventory management and customer experience.",
+      "title": "Mining",
+      "description": "Technologies to optimize operations, asset management and safety in the mining sector.",
       "solutions": {
-        "ecommerce": "E-commerce",
-        "inventory": "Inventory Management",
-        "analytics": "Sales Analytics",
-        "loyalty": "Loyalty Programs"
+        "ecommerce": "Operational Monitoring",
+        "inventory": "Mineral Inventory Management",
+        "analytics": "Production Analytics",
+        "loyalty": "Supplier Management"
       }
     },
     "healthcare": {
-      "title": "Healthcare",
-      "description": "Solutions for clinics, hospitals and healthcare professionals to improve care.",
+      "title": "Agribusiness",
+      "description": "Solutions for farmers, cooperatives and agribusiness companies to optimize production and field management.",
       "solutions": {
-        "emr": "Electronic Medical Records",
-        "telemedicine": "Telemedicine",
-        "analytics": "Medical Analytics",
-        "compliance": "Regulatory Compliance"
+        "emr": "Agricultural Production Management",
+        "telemedicine": "Precision Agriculture",
+        "analytics": "Agribusiness Analytics",
+        "compliance": "Traceability and Compliance"
       }
     },
     "education": {

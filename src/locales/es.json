@@ -3,30 +3,98 @@
     "title": "Varias Tecnologías para Tu Negocio",
     "subtitle": "Soluciones completas en Business Intelligence, Software Personalizado, Ciencia de Datos y Automatizaciones RPA",
     "ctaPrimary": "Descubre nuestras soluciones",
-    "ctaSecondary": "Ver portafolio"
+    "ctaSecondary": "Servicios"
   },
   "services": {
-    "title": "Nuestras Soluciones",
+    "hero": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Soluciones tecnológicas completas para impulsar tu negocio"
+    },
+    "title": "Lo que Hacemos",
     "subtitle": "Ofrecemos un portafolio completo de servicios para digitalizar y optimizar tu negocio",
+    "learnMore": "Saber Más",
+    "process": {
+      "title": "Nuestro Proceso",
+      "subtitle": "Una metodología probada para garantizar el éxito de tus proyectos",
+      "discovery": {
+        "title": "Descubrimiento",
+        "description": "Entendemos profundamente tus necesidades y objetivos de negocio."
+      },
+      "planning": {
+        "title": "Planificación",
+        "description": "Desarrollamos una estrategia detallada y un roadmap personalizado."
+      },
+      "development": {
+        "title": "Desarrollo",
+        "description": "Implementamos la solución con calidad y siguiendo las mejores prácticas."
+      },
+      "deployment": {
+        "title": "Implementación",
+        "description": "Entregamos la solución y ofrecemos soporte continuo para optimización."
+      }
+    },
+    "technologies": {
+      "title": "Tecnologías que Utilizamos",
+      "subtitle": "Trabajamos con las principales tecnologías del mercado",
+      "frontend": {
+        "title": "Frontend"
+      },
+      "backend": {
+        "title": "Backend"
+      },
+      "data": {
+        "title": "Datos y Analytics"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Proyecto?",
+      "subtitle": "Contáctanos y descubre cómo podemos ayudar a tu negocio",
+      "contact": "Contáctanos",
+      "portfolio": "Servicios"
+    },
     "businessIntelligence": {
       "title": "Business Intelligence",
-      "description": "Paneles interactivos y dashboards personalizados que transforman tus datos en insights accionables para la toma de decisiones estratégicas."
+      "description": "Paneles interactivos y dashboards personalizados que transforman tus datos en insights accionables para la toma de decisiones estratégicas.",
+      "features": {
+        "dashboards": "Dashboards Interactivos",
+        "reports": "Reportes Automatizados",
+        "analytics": "Análisis Predictivo",
+        "kpi": "Indicadores de Rendimiento"
+      }
     },
     "customSoftware": {
       "title": "Software a Medida",
-      "description": "Desarrollo de aplicaciones personalizadas y escalables que satisfacen exactamente las necesidades únicas de tu negocio."
+      "description": "Desarrollo de aplicaciones personalizadas y escalables que satisfacen exactamente las necesidades únicas de tu negocio.",
+      "features": {
+        "web": "Aplicaciones Web",
+        "mobile": "Apps Móviles",
+        "api": "APIs e Integraciones",
+        "integration": "Sistemas Integrados"
+      }
     },
     "dataScience": {
       "title": "Ciencia de Datos",
-      "description": "Proyectos de ingeniería y análisis de datos, machine learning e inteligencia artificial para extraer el máximo valor de tu información."
+      "description": "Proyectos de ingeniería y análisis de datos, machine learning e inteligencia artificial para extraer el máximo valor de tu información.",
+      "features": {
+        "ml": "Machine Learning",
+        "ai": "Inteligencia Artificial",
+        "prediction": "Modelos Predictivos",
+        "optimization": "Optimización de Procesos"
+      }
     },
     "rpaAutomation": {
       "title": "Automatización RPA",
-      "description": "Automatización de procesos robóticos para eliminar tareas repetitivas, aumentar la eficiencia y reducir errores operacionales."
+      "description": "Automatización de procesos robóticos para eliminar tareas repetitivas, aumentar la eficiencia y reducir errores operacionales.",
+      "features": {
+        "automation": "Automatización de Procesos",
+        "workflow": "Flujos de Trabajo",
+        "integration": "Integración de Sistemas",
+        "monitoring": "Monitoreo Continuo"
+      }
     }
   },
   "footer": {
-    "tagline": "Varias tecnologías para tu negocio",
+    "tagline": "Varias tecnologías",
     "services": "Servicios",
     "address": "Dirección",
     "contact": "Contacto",
@@ -38,7 +106,29 @@
   },
   "portfolio": {
     "title": "Portafolio de Proyectos",
-    "subtitle": "Conoce algunos de los proyectos que hemos desarrollado para nuestros clientes"
+    "subtitle": "Conoce algunos de los proyectos que hemos desarrollado para nuestros clientes",
+    "items": {
+      "item1": {
+        "title": "Dashboard Ejecutivo y Gerencial",
+        "category": "Business Intelligence",
+        "description": "Panel interactivo con KPIs en tiempo real, análisis de flujo de caja y previsiones financieras."
+      },
+      "item2": {
+        "title": "Automatización Robótica de Procesos",
+        "category": "RPA, ChatBot",
+        "description": "Robot para la automatización de tareas repetitivas y procesos administrativos. Chatbot para la inteligencia de su negocio."
+      },
+      "item3": {
+        "title": "Sistema Personalizado",
+        "category": "Software a Medida",
+        "description": "Plataforma completa para la gestión de operaciones con módulos integrados e interfaz intuitiva."
+      },
+      "item4": {
+        "title": "Inteligencia Artificial Aplicada",
+        "category": "Ciencia de Datos",
+        "description": "Algoritmos de inteligencia artificial para previsiones y optimización de las operaciones de su empresa."
+      }
+    }
   },
   "cta": {
     "title": "¿Listo para Transformar tu Negocio?",
@@ -47,7 +137,7 @@
     "phoneButton": "Llamar Ahora"
   },
   "clients": {
-    "title": "Nuestros Clientes",
+    "title": "Nuestros Parejas",
     "subtitle": "Empresas que confían en nuestros servicios y soluciones tecnológicas",
     "moreClients": "Y muchos otros clientes satisfechos..."
   },
@@ -127,94 +217,6 @@
       }
     }
   },
-  "services": {
-    "hero": {
-      "title": "Nuestros Servicios",
-      "subtitle": "Soluciones tecnológicas completas para impulsar tu negocio"
-    },
-    "title": "Lo que Hacemos",
-    "subtitle": "Ofrecemos un portafolio completo de servicios para digitalizar y optimizar tu negocio",
-    "learnMore": "Saber Más",
-    "process": {
-      "title": "Nuestro Proceso",
-      "subtitle": "Una metodología probada para garantizar el éxito de tus proyectos",
-      "discovery": {
-        "title": "Descubrimiento",
-        "description": "Entendemos profundamente tus necesidades y objetivos de negocio."
-      },
-      "planning": {
-        "title": "Planificación",
-        "description": "Desarrollamos una estrategia detallada y un roadmap personalizado."
-      },
-      "development": {
-        "title": "Desarrollo",
-        "description": "Implementamos la solución con calidad y siguiendo las mejores prácticas."
-      },
-      "deployment": {
-        "title": "Implementación",
-        "description": "Entregamos la solución y ofrecemos soporte continuo para optimización."
-      }
-    },
-    "technologies": {
-      "title": "Tecnologías que Utilizamos",
-      "subtitle": "Trabajamos con las principales tecnologías del mercado",
-      "frontend": {
-        "title": "Frontend"
-      },
-      "backend": {
-        "title": "Backend"
-      },
-      "data": {
-        "title": "Datos y Analytics"
-      }
-    },
-    "cta": {
-      "title": "¿Listo para Comenzar tu Proyecto?",
-      "subtitle": "Contáctanos y descubre cómo podemos ayudar a tu negocio",
-      "contact": "Contáctanos",
-      "portfolio": "Ver Portafolio"
-    },
-    "businessIntelligence": {
-      "title": "Business Intelligence",
-      "description": "Paneles interactivos y dashboards personalizados que transforman tus datos en insights accionables para la toma de decisiones estratégicas.",
-      "features": {
-        "dashboards": "Dashboards Interactivos",
-        "reports": "Reportes Automatizados",
-        "analytics": "Análisis Predictivo",
-        "kpi": "Indicadores de Rendimiento"
-      }
-    },
-    "customSoftware": {
-      "title": "Software a Medida",
-      "description": "Desarrollo de aplicaciones personalizadas y escalables que satisfacen exactamente las necesidades únicas de tu negocio.",
-      "features": {
-        "web": "Aplicaciones Web",
-        "mobile": "Apps Móviles",
-        "api": "APIs e Integraciones",
-        "integration": "Sistemas Integrados"
-      }
-    },
-    "dataScience": {
-      "title": "Ciencia de Datos",
-      "description": "Proyectos de ingeniería y análisis de datos, machine learning e inteligencia artificial para extraer el máximo valor de tu información.",
-      "features": {
-        "ml": "Machine Learning",
-        "ai": "Inteligencia Artificial",
-        "prediction": "Modelos Predictivos",
-        "optimization": "Optimización de Procesos"
-      }
-    },
-    "rpaAutomation": {
-      "title": "Automatización RPA",
-      "description": "Automatización de procesos robóticos para eliminar tareas repetitivas, aumentar la eficiencia y reducir errores operacionales.",
-      "features": {
-        "automation": "Automatización de Procesos",
-        "workflow": "Flujos de Trabajo",
-        "integration": "Integración de Sistemas",
-        "monitoring": "Monitoreo Continuo"
-      }
-    }
-  },
   "segments": {
     "hero": {
       "title": "Segmentos de Mercado",
@@ -247,18 +249,18 @@
       "title": "Casos de Éxito",
       "subtitle": "Resultados reales alcanzados por nuestros clientes",
       "case1": {
-        "title": "Empresa de Retail",
-        "description": "Implementación de sistema de BI que revolucionó el análisis de ventas.",
+        "title": "Empresa de Minería",
+        "description": "Implementación de sistema de BI que revolucionó el análisis de la producción mineral.",
         "result": "Eficiencia"
       },
       "case2": {
-        "title": "Industria Manufacturera",
-        "description": "Automatización de procesos que redujo costos operacionales significativamente.",
-        "result": "Reducción de Costos"
+        "title": "Empresa del Agronegocio",
+        "description": "Chatbot para acceso rápido a información de negocio.",
+        "result": "Satisfacción"
       },
       "case3": {
-        "title": "Clínica Médica",
-        "description": "Sistema de gestión que mejoró la atención y organización de pacientes.",
+        "title": "Empresa de Logística",
+        "description": "Implementación de un sistema de rastreo que mejoró la visibilidad de la cadena de suministro.",
         "result": "Satisfacción"
       }
     },
@@ -279,23 +281,23 @@
       }
     },
     "retail": {
-      "title": "Retail",
-      "description": "Tecnologías para optimizar ventas, gestión de inventario y experiencia del cliente.",
+      "title": "Minería",
+      "description": "Tecnologías para optimizar operaciones, gestión de activos y seguridad en el sector minero.",
       "solutions": {
-        "ecommerce": "E-commerce",
-        "inventory": "Gestión de Inventario",
-        "analytics": "Analytics de Ventas",
-        "loyalty": "Programas de Fidelidad"
+        "ecommerce": "Monitoreo Operacional",
+        "inventory": "Gestión de Inventario Mineral",
+        "analytics": "Analytics de Producción",
+        "loyalty": "Gestión de Proveedores"
       }
     },
     "healthcare": {
-      "title": "Salud",
-      "description": "Soluciones para clínicas, hospitales y profesionales de la salud para mejorar la atención.",
+      "title": "Agronegocio",
+      "description": "Soluciones para productores rurales, cooperativas y empresas del agro para optimizar la producción y la gestión en el campo.",
       "solutions": {
-        "emr": "Historia Clínica Electrónica",
-        "telemedicine": "Telemedicina",
-        "analytics": "Analytics Médico",
-        "compliance": "Cumplimiento Regulatorio"
+        "emr": "Gestión de la Producción Agrícola",
+        "telemedicine": "Agricultura de Precisión",
+        "analytics": "Analytics Agro",
+        "compliance": "Trazabilidad y Cumplimiento"
       }
     },
     "education": {

@@ -2,42 +2,33 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-const portfolioItems = [
-  {
-    title: "Dashboard Financeiro Executivo",
-    category: "Business Intelligence",
-    description: "Painel interativo com KPIs em tempo real, análise de fluxo de caixa e previsões financeiras.",
-    tags: ["Power BI", "SQL", "ETL"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
-  },
-  {
-    title: "Sistema de Gestão Customizado",
-    category: "Software Sob Medida",
-    description: "Plataforma completa para gestão de operações com módulos integrados e interface intuitiva.",
-    tags: ["React", "Node.js", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
-  },
-  {
-    title: "Modelo Preditivo de Vendas",
-    category: "Ciência de Dados",
-    description: "Algoritmo de machine learning para previsão de demanda e otimização de estoque.",
-    tags: ["Python", "ML", "Analytics"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
-  },
-  {
-    title: "Automação de Processos Financeiros",
-    category: "RPA",
-    description: "Robô para automatização de conciliação bancária e emissão de relatórios gerenciais.",
-    tags: ["UiPath", "Python", "API"],
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop",
-  },
+const portfolioImages = [
+  "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&auto=format&fit=crop",
+];
+
+const portfolioTags = [
+  ["Power BI", "Python", "SQL", "ETL"],
+  ["UiPath", "Python", "API"],
+  ["Python", "Node.js", "React", "SQL"],
+  ["Python", "ML", "Analytics"],
 ];
 
 const Portfolio = () => {
   const { t } = useLanguage();
-  
+
+  const portfolioItems = portfolioImages.map((image, index) => ({
+    title: t(`portfolio.items.item${index + 1}.title`),
+    category: t(`portfolio.items.item${index + 1}.category`),
+    description: t(`portfolio.items.item${index + 1}.description`),
+    tags: portfolioTags[index],
+    image,
+  }));
+
   return (
-    <section className="py-24 bg-gradient-secondary">
+    <section id="portfolio" className="py-24 bg-gradient-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">

@@ -4,12 +4,12 @@ import Footer from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { 
-  Building2, 
-  ShoppingCart, 
-  Heart, 
-  GraduationCap, 
-  Factory, 
+import {
+  Building2,
+  Pickaxe,
+  Wheat,
+  GraduationCap,
+  Factory,
   Truck,
   CheckCircle,
   ArrowRight,
@@ -24,19 +24,7 @@ const Segments = () => {
 
   const segments = [
     {
-      icon: Building2,
-      title: t("segments.corporate.title"),
-      description: t("segments.corporate.description"),
-      solutions: [
-        t("segments.corporate.solutions.erp"),
-        t("segments.corporate.solutions.crm"),
-        t("segments.corporate.solutions.bi"),
-        t("segments.corporate.solutions.automation")
-      ],
-      color: "blue"
-    },
-    {
-      icon: ShoppingCart,
+      icon: Pickaxe,
       title: t("segments.retail.title"),
       description: t("segments.retail.description"),
       solutions: [
@@ -45,10 +33,10 @@ const Segments = () => {
         t("segments.retail.solutions.analytics"),
         t("segments.retail.solutions.loyalty")
       ],
-      color: "green"
+      color: "gray"
     },
     {
-      icon: Heart,
+      icon: Wheat,
       title: t("segments.healthcare.title"),
       description: t("segments.healthcare.description"),
       solutions: [
@@ -57,31 +45,7 @@ const Segments = () => {
         t("segments.healthcare.solutions.analytics"),
         t("segments.healthcare.solutions.compliance")
       ],
-      color: "red"
-    },
-    {
-      icon: GraduationCap,
-      title: t("segments.education.title"),
-      description: t("segments.education.description"),
-      solutions: [
-        t("segments.education.solutions.lms"),
-        t("segments.education.solutions.analytics"),
-        t("segments.education.solutions.virtual"),
-        t("segments.education.solutions.management")
-      ],
-      color: "purple"
-    },
-    {
-      icon: Factory,
-      title: t("segments.manufacturing.title"),
-      description: t("segments.manufacturing.description"),
-      solutions: [
-        t("segments.manufacturing.solutions.mes"),
-        t("segments.manufacturing.solutions.iot"),
-        t("segments.manufacturing.solutions.quality"),
-        t("segments.manufacturing.solutions.maintenance")
-      ],
-      color: "orange"
+      color: "green"
     },
     {
       icon: Truck,
@@ -127,7 +91,8 @@ const Segments = () => {
       red: "text-red-600 bg-red-50",
       purple: "text-purple-600 bg-purple-50",
       orange: "text-orange-600 bg-orange-50",
-      indigo: "text-indigo-600 bg-indigo-50"
+      indigo: "text-indigo-600 bg-indigo-50",
+      gray: "text-gray-700 bg-gray-100"
     };
     return colors[color as keyof typeof colors] || colors.blue;
   };
@@ -153,14 +118,6 @@ const Segments = () => {
       {/* Segments Grid */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              {t("segments.title")}
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t("segments.subtitle")}
-            </p>
-          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {segments.map((segment, index) => (

@@ -208,7 +208,7 @@ const Services = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {["React", "Vue.js", "Angular", "TypeScript", "Tailwind CSS"].map((tech) => (
+                  {["TypeScript" , "JavaScript", "React", "Vite" ].map((tech) => (
                     <Badge key={tech} variant="secondary">{tech}</Badge>
                   ))}
                 </div>
@@ -221,7 +221,7 @@ const Services = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {["Node.js", "Python", "Java", "C#", ".NET"].map((tech) => (
+                  {["Python", "FastAPI", "Node.js"].map((tech) => (
                     <Badge key={tech} variant="secondary">{tech}</Badge>
                   ))}
                 </div>
@@ -234,7 +234,7 @@ const Services = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {["Power BI", "Tableau", "Python", "R", "SQL Server"].map((tech) => (
+                  {["Power BI", "Python", "R", "PostgreSQL", "SQL Server"].map((tech) => (
                     <Badge key={tech} variant="secondary">{tech}</Badge>
                   ))}
                 </div>

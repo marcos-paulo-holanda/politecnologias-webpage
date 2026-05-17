@@ -5,8 +5,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 const Hero = () => {
   const { t } = useLanguage();
   
-  const scrollToContact = () => {
-    document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToPortfolio = () => {
+    document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8"
-              onClick={scrollToContact}
+              onClick={scrollToPortfolio}
             >
               {t('hero.ctaPrimary')}
               <ArrowRight className="ml-2 h-5 w-5" />
