@@ -4,7 +4,7 @@ import LanguageSelector from "./LanguageSelector";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import politecLogo from "@/assets/politec-logo.png";
+import politecLogo from "@/assets/politec-logo.jpeg";
 
 const Navigation = () => {
   const { t } = useTranslation();

@@ -1,5 +1,5 @@
 import { Linkedin, Instagram, Mail, Phone } from "lucide-react";
-import politecLogo from "@/assets/politec-logo.png";
+import politecLogo from "@/assets/politec-logo.jpeg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
