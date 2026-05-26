@@ -54,7 +54,7 @@ const Footer = () => {
               </p>
               <div className="flex gap-4 mt-4">
                 <a 
-                  href="https://www.linkedin.com/company/politec-desenvolvimentos/?viewAsMember=true" 
+                  href="https://www.linkedin.com/company/politec-nologias/?viewAsMember=true" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-lg bg-muted hover:bg-gradient-primary hover:text-white flex items-center justify-center transition-all duration-300"
@@ -62,7 +62,7 @@ const Footer = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://instagram.com/politecdev" 
+                  href="https://instagram.com/politec.nologias" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-lg bg-muted hover:bg-gradient-primary hover:text-white flex items-center justify-center transition-all duration-300"
