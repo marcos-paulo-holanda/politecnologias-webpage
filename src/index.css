@@ -2,86 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
 All colors MUST be HSL.
+
+Politec brand palette:
+  PURE WHITE  #FFFFFF  → 0 0% 100%
+  POLAR VEIL  #EDEEDF  → 64 31% 90%
+  VOID BLACK  #000000  → 0 0% 0%
+  SOLAR GOLD  #FFD51C  → 49 100% 55%
+  NEON PULSE  #F5E905  → 57 96% 49%
 */
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 200 60% 18%;
+    /* Surfaces */
+    --background: 0 0% 100%;            /* PURE WHITE */
+    --foreground: 0 0% 0%;              /* VOID BLACK */
 
-    --card: 0 0% 100%;
-    --card-foreground: 200 60% 18%;
+    --card: 0 0% 100%;                  /* PURE WHITE */
+    --card-foreground: 0 0% 0%;         /* VOID BLACK */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 200 60% 18%;
+    --popover: 0 0% 100%;               /* PURE WHITE */
+    --popover-foreground: 0 0% 0%;      /* VOID BLACK */
 
-    --primary: 170 45% 45%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 170 45% 55%;
+    /* Brand */
+    --primary: 49 100% 55%;             /* SOLAR GOLD */
+    --primary-foreground: 0 0% 0%;      /* VOID BLACK — contraste sobre amarelo */
+    --primary-glow: 57 96% 49%;         /* NEON PULSE */
 
-    --secondary: 200 60% 18%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 0%;               /* VOID BLACK */
+    --secondary-foreground: 0 0% 100%;  /* PURE WHITE */
 
-    --muted: 170 10% 92%;
-    --muted-foreground: 200 15% 45%;
+    --muted: 64 31% 90%;                /* POLAR VEIL */
+    --muted-foreground: 0 0% 25%;       /* cinza escuro legível */
 
-    --accent: 170 50% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 57 96% 49%;               /* NEON PULSE */
+    --accent-foreground: 0 0% 0%;       /* VOID BLACK */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 170 15% 88%;
-    --input: 170 15% 88%;
-    --ring: 170 45% 45%;
+    /* Bordas, inputs, foco */
+    --border: 64 31% 90%;               /* POLAR VEIL */
+    --input: 64 31% 90%;                /* POLAR VEIL */
+    --ring: 49 100% 55%;                /* SOLAR GOLD */
 
     --radius: 0.75rem;
 
-    --gradient-primary: linear-gradient(135deg, hsl(170 45% 45%), hsl(200 60% 18%));
-    --gradient-secondary: linear-gradient(180deg, hsl(0 0% 98%), hsl(170 10% 95%));
-    --gradient-accent: linear-gradient(135deg, hsl(170 50% 50%), hsl(170 45% 40%));
-    
-    --shadow-glow: 0 8px 32px -8px hsl(170 45% 45% / 0.35);
-    --shadow-card: 0 4px 20px -4px hsl(200 60% 18% / 0.08);
+    /* Gradientes da marca */
+    --gradient-primary: linear-gradient(135deg, hsl(49 100% 55%), hsl(57 96% 49%));
+    --gradient-secondary: linear-gradient(180deg, hsl(0 0% 100%), hsl(64 31% 90%));
+    --gradient-accent: linear-gradient(135deg, hsl(57 96% 49%), hsl(49 100% 55%));
+
+    --shadow-glow: 0 8px 32px -8px hsl(49 100% 55% / 0.35);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.08);
   }
 
   .dark {
-    --background: 200 50% 8%;
-    --foreground: 170 30% 92%;
+    /* Surfaces */
+    --background: 0 0% 0%;              /* VOID BLACK */
+    --foreground: 0 0% 100%;            /* PURE WHITE */
 
-    --card: 200 45% 12%;
-    --card-foreground: 170 30% 92%;
+    --card: 0 0% 8%;                    /* preto suave */
+    --card-foreground: 0 0% 100%;       /* PURE WHITE */
 
-    --popover: 200 45% 12%;
-    --popover-foreground: 170 30% 92%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 170 45% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 170 45% 60%;
+    /* Brand */
+    --primary: 49 100% 55%;             /* SOLAR GOLD */
+    --primary-foreground: 0 0% 0%;      /* VOID BLACK */
+    --primary-glow: 57 96% 49%;         /* NEON PULSE */
 
-    --secondary: 200 60% 22%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 64 31% 90%;            /* POLAR VEIL — invertido para contraste */
+    --secondary-foreground: 0 0% 0%;    /* VOID BLACK */
 
-    --muted: 200 40% 18%;
-    --muted-foreground: 170 20% 65%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 64 14% 75%;
 
-    --accent: 170 50% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 57 96% 49%;               /* NEON PULSE */
+    --accent-foreground: 0 0% 0%;       /* VOID BLACK */
 
     --destructive: 0 62.8% 50.6%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 200 40% 20%;
-    --input: 200 40% 20%;
-    --ring: 170 45% 50%;
+    /* Bordas, inputs, foco */
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 49 100% 55%;                /* SOLAR GOLD */
 
-    --gradient-primary: linear-gradient(135deg, hsl(170 45% 50%), hsl(200 60% 22%));
-    --gradient-secondary: linear-gradient(180deg, hsl(200 50% 8%), hsl(200 45% 10%));
-    --gradient-accent: linear-gradient(135deg, hsl(170 50% 55%), hsl(170 45% 45%));
-    
-    --shadow-glow: 0 8px 32px -8px hsl(170 45% 50% / 0.4);
+    /* Gradientes da marca */
+    --gradient-primary: linear-gradient(135deg, hsl(49 100% 55%), hsl(57 96% 49%));
+    --gradient-secondary: linear-gradient(180deg, hsl(0 0% 0%), hsl(0 0% 5%));
+    --gradient-accent: linear-gradient(135deg, hsl(57 96% 49%), hsl(49 100% 55%));
+
+    --shadow-glow: 0 8px 32px -8px hsl(49 100% 55% / 0.4);
     --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
   }
 }

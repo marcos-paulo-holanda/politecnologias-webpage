@@ -13,13 +13,13 @@ const AboutUs = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-[#FFD51C] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               {t("about.hero.title")}
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-black md:text-2xl mb-8 max-w-3xl mx-auto">
               {t("about.hero.subtitle")}
             </p>
           </div>
@@ -32,7 +32,7 @@ const AboutUs = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center">
               <CardHeader>
-                <Target className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                <Target className="h-12 w-12 mx-auto text-[#FFD51C] mb-4" />
                 <CardTitle className="text-2xl">{t("about.mission.title")}</CardTitle>
               </CardHeader>
               <CardContent>
@@ -44,7 +44,7 @@ const AboutUs = () => {
 
             <Card className="text-center">
               <CardHeader>
-                <Lightbulb className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                <Lightbulb className="h-12 w-12 mx-auto text-[#FFD51C] mb-4" />
                 <CardTitle className="text-2xl">{t("about.vision.title")}</CardTitle>
               </CardHeader>
               <CardContent>
@@ -56,7 +56,7 @@ const AboutUs = () => {
 
             <Card className="text-center">
               <CardHeader>
-                <Award className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                <Award className="h-12 w-12 mx-auto text-[#FFD51C] mb-4" />
                 <CardTitle className="text-2xl">{t("about.values.title")}</CardTitle>
               </CardHeader>
               <CardContent>
@@ -99,19 +99,19 @@ const AboutUs = () => {
             <div className="bg-gray-100 rounded-lg p-8">
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
+                  <div className="text-3xl font-bold text-[#FFD51C] mb-2">50+</div>
                   <div className="text-gray-600">{t("about.stats.projects")}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
+                  <div className="text-3xl font-bold text-[#FFD51C] mb-2">10+</div>
                   <div className="text-gray-600">{t("about.stats.clients")}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">10+</div>
+                  <div className="text-3xl font-bold text-[#FFD51C] mb-2">10+</div>
                   <div className="text-gray-600">{t("about.stats.years")}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
+                  <div className="text-3xl font-bold text-[#FFD51C] mb-2">100%</div>
                   <div className="text-gray-600">{t("about.stats.satisfaction")}</div>
                 </div>
               </div>
@@ -135,7 +135,7 @@ const AboutUs = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center">
               <CardHeader>
-                <Users className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                <Users className="h-12 w-12 mx-auto text-[#FFD51C] mb-4" />
                 <CardTitle className="text-xl">{t("about.team.experts.title")}</CardTitle>
               </CardHeader>
               <CardContent>
@@ -147,7 +147,7 @@ const AboutUs = () => {
 
             <Card className="text-center">
               <CardHeader>
-                <Award className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                <Award className="h-12 w-12 mx-auto text-[#FFD51C] mb-4" />
                 <CardTitle className="text-xl">{t("about.team.certified.title")}</CardTitle>
               </CardHeader>
               <CardContent>
@@ -159,7 +159,7 @@ const AboutUs = () => {
 
             <Card className="text-center">
               <CardHeader>
-                <Lightbulb className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                <Lightbulb className="h-12 w-12 mx-auto text-[#FFD51C] mb-4" />
                 <CardTitle className="text-xl">{t("about.team.innovative.title")}</CardTitle>
               </CardHeader>
               <CardContent>

@@ -1,45 +1,49 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import heroBg from "@/assets/hero-bg.png";
 
 const Hero = () => {
   const { t } = useLanguage();
-  
+
   const scrollToPortfolio = () => {
     document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-secondary">
-      
-      
-      {/* Background decorative elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
-      </div>
+    <section
+      className="relative min-h-[90vh] flex items-center overflow-hidden bg-black"
+      style={{
+        backgroundImage: `url(${heroBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent leading-tight">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Conteúdo alinhado à ESQUERDA, ocupando o espaço onde estava o
+            texto original na imagem */}
+        <div className="max-w-xl lg:max-w-2xl md:ml-[4%] lg:ml-[6%] text-left animate-fade-in-up">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5 text-white leading-tight">
             {t('hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-white/85 mb-8 max-w-lg">
             {t('hero.subtitle')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8"
+          <div className="flex flex-col sm:flex-row gap-4 items-start">
+            <Button
+              size="lg"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 text-lg px-8 font-semibold shadow-glow"
               onClick={scrollToPortfolio}
             >
               {t('hero.ctaPrimary')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg px-8"
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-2 border-white/80 text-white bg-transparent hover:bg-white hover:text-black transition-all duration-300 text-lg px-8"
               onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
             >
               {t('hero.ctaSecondary')}

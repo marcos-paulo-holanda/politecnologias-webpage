@@ -31,7 +31,7 @@ const Portfolio = () => {
     <section id="portfolio" className="py-24 bg-gradient-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-black bg-clip-text text-transparent">
             {t('portfolio.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-card/90 to-transparent" />
               </div>
               <CardContent className="p-6">
-                <Badge className="mb-3 bg-gradient-primary text-white border-0">
+                <Badge className="mb-3 bg-black text-white border-0">
                   {item.category}
                 </Badge>
                 <h3 className="text-2xl font-semibold mb-3 text-foreground">
@@ -69,7 +69,7 @@ const Portfolio = () => {
                     <Badge 
                       key={tagIndex} 
                       variant="outline"
-                      className="border-primary/30 text-primary"
+                      className="border-primary/30 text-black"
                     >
                       {tag}
                     </Badge>

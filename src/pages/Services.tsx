@@ -99,7 +99,7 @@ const Services = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-[#FFD51C] text-black py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -129,7 +129,7 @@ const Services = () => {
               <Card key={index} className="hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="flex items-center mb-4">
-                    <service.icon className="h-8 w-8 text-blue-600 mr-3" />
+                    <service.icon className="h-8 w-8 text-[#FFD51C] mr-3" />
                     <CardTitle className="text-2xl">{service.title}</CardTitle>
                   </div>
                   <CardDescription className="text-lg">
@@ -140,15 +140,11 @@ const Services = () => {
                   <div className="space-y-3">
                     {service.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="flex items-center">
-                        <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
+                        <CheckCircle className="h-5 w-5 text-[#000000] mr-3 flex-shrink-0" />
                         <span className="text-gray-700">{feature}</span>
                       </div>
                     ))}
                   </div>
-                  {/* <Button className="mt-6 w-full" variant="outline">
-                    {t("services.learnMore")}
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button> */}
                 </CardContent>
               </Card>
             ))}
@@ -172,10 +168,10 @@ const Services = () => {
             {processSteps.map((step, index) => (
               <div key={index} className="text-center">
                 <div className="relative mb-6">
-                  <div className="bg-blue-600 text-white rounded-full w-16 h-16 flex items-center justify-center text-xl font-bold mx-auto">
+                  <div className="bg-[#FFD51C] text-black rounded-full w-16 h-16 flex items-center justify-center text-xl font-bold mx-auto">
                     {step.step}
                   </div>
-                  <step.icon className="h-8 w-8 text-blue-600 mx-auto mt-4" />
+                  <step.icon className="h-8 w-8 text-black mx-auto mt-4" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
                   {step.title}
@@ -245,7 +241,7 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      {/* <section className="py-20 bg-[#FFD51C] text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             {t("services.cta.title")}
@@ -253,16 +249,8 @@ const Services = () => {
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             {t("services.cta.subtitle")}
           </p>
-          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary">
-              {t("services.cta.contact")}
-            </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
-              {t("services.cta.portfolio")}
-            </Button>
-          </div> */}
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

@@ -44,8 +44,8 @@ const Navigation = () => {
                 to={item.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive(item.path)
-                    ? "text-blue-600 bg-blue-50"
-                    : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                    ? "text-[#000000] bg-[#FFD51C]/10"
+                    : "text-gray-700 hover:text-[#FFD51C] hover:bg-gray-50"
                 }`}
               >
                 {item.label}
@@ -86,8 +86,8 @@ const Navigation = () => {
                   to={item.path}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                     isActive(item.path)
-                      ? "text-blue-600 bg-blue-50"
-                      : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                      ? "text-[#FFD51C] bg-[#FFD51C]/10"
+                      : "text-gray-700 hover:text-[#FFD51C] hover:bg-gray-50"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >

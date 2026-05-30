@@ -39,13 +39,13 @@ const LanguageSelector: React.FC = () => {
             key={language.code}
             onClick={() => changeLanguage(language.code)}
             className={`flex items-center gap-3 cursor-pointer ${
-              currentLanguage === language.code ? 'bg-primary/10 text-primary' : ''
+              currentLanguage === language.code ? 'bg-primary/10 text-black' : ''
             }`}
           >
             <span className="text-lg">{language.flag}</span>
             <span>{language.name}</span>
             {currentLanguage === language.code && (
-              <span className="ml-auto text-primary">✓</span>
+              <span className="ml-auto text-black">✓</span>
             )}
           </DropdownMenuItem>
         ))}

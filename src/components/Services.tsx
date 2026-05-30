@@ -10,32 +10,32 @@ const Services = () => {
       icon: BarChart3,
       title: t('services.businessIntelligence.title'),
       description: t('services.businessIntelligence.description'),
-      gradient: "from-[hsl(170,45%,45%)] to-[hsl(170,45%,55%)]",
+      gradient: "from-[#000000] to-[#333333]",
     },
     {
       icon: Code2,
       title: t('services.customSoftware.title'),
       description: t('services.customSoftware.description'),
-      gradient: "from-[hsl(200,60%,18%)] to-[hsl(200,60%,28%)]",
+      gradient: "from-[#000000] to-[#333333]",
     },
     {
       icon: Brain,
       title: t('services.dataScience.title'),
       description: t('services.dataScience.description'),
-      gradient: "from-[hsl(170,50%,50%)] to-[hsl(170,50%,40%)]",
+      gradient: "from-[#000000] to-[#333333]",
     },
     {
       icon: Zap,
       title: t('services.rpaAutomation.title'),
       description: t('services.rpaAutomation.description'),
-      gradient: "from-[hsl(170,45%,40%)] to-[hsl(200,60%,22%)]",
+      gradient: "from-[#000000] to-[#333333]",
     },
   ];
   return (
     <section id="servicos" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-black bg-clip-text text-transparent">
             {t('services.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -62,11 +62,11 @@ const Clients = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {clients.map((client) => (
-            <Card 
+            <Card
               key={client.id}
-              className="p-6 hover:shadow-lg transition-all duration-300 hover:scale-105 bg-white border-2 hover:border-primary/20"
+              className="w-[calc(50%-12px)] sm:w-52 md:w-48 lg:w-44 p-6 hover:shadow-lg transition-all duration-300 hover:scale-105 bg-white border-2 hover:border-primary/20"
             >
               <a 
                 href={client.website}

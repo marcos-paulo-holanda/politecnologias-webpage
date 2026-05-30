@@ -3,16 +3,11 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import {
-  Building2,
   Pickaxe,
   Wheat,
-  GraduationCap,
-  Factory,
   Truck,
   CheckCircle,
-  ArrowRight,
   TrendingUp,
   Users,
   Target,
@@ -102,7 +97,7 @@ const Segments = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-[#FFD51C] text-black py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -137,15 +132,11 @@ const Segments = () => {
                   <div className="space-y-3 mb-6">
                     {segment.solutions.map((solution, solutionIndex) => (
                       <div key={solutionIndex} className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-green-500 mr-3 flex-shrink-0" />
+                        <CheckCircle className="h-4 w-4 text-black mr-3 flex-shrink-0" />
                         <span className="text-sm text-gray-700">{solution}</span>
                       </div>
                     ))}
                   </div>
-                  {/* <Button className="w-full" variant="outline" size="sm">
-                    {t("segments.learnMore")}
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button> */}
                 </CardContent>
               </Card>
             ))}
@@ -169,7 +160,7 @@ const Segments = () => {
             {benefits.map((benefit, index) => (
               <Card key={index} className="text-center">
                 <CardHeader>
-                  <benefit.icon className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                  <benefit.icon className="h-12 w-12 mx-auto text-[#FFD51C] mb-4" />
                   <CardTitle className="text-xl">{benefit.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -245,7 +236,7 @@ const Segments = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      {/* <section className="py-20 bg-[#FFD51C] text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             {t("segments.cta.title")}
@@ -253,16 +244,8 @@ const Segments = () => {
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             {t("segments.cta.subtitle")}
           </p>
-          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary">
-              {t("segments.cta.contact")}
-            </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-600">
-              {t("segments.cta.consultation")}
-            </Button>
-          </div> */}
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>
