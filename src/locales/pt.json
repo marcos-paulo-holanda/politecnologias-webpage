@@ -102,7 +102,10 @@
     "businessIntelligence": "Business Intelligence",
     "customSoftware": "Software Customizado",
     "dataScience": "Ciência de Dados",
-    "rpaAutomation": "Automação RPA"
+    "rpaAutomation": "Automação RPA",
+    "privacy": "Privacidade",
+    "sitePolicy": "Política de Site",
+    "cookiePolicy": "Política de Cookies"
   },
   "portfolio": {
     "title": "Portfólio de Projetos",
@@ -328,6 +331,49 @@
         "optimization": "Otimização de Rotas",
         "warehouse": "Gestão de Armazém"
       }
+    }
+  },
+  "sitePolicy": {
+    "title": "Política de Site",
+    "lastUpdatedLabel": "Última atualização",
+    "lastUpdated": "29/05/2026",
+    "intro": {
+      "title": "Sobre este site",
+      "text": "Este é um site institucional da Politec, criado para apresentar nossa empresa, serviços e soluções. O site não coleta dados pessoais diretamente dos visitantes: não há formulários de cadastro, áreas de login ou mecanismos de captura de informações em nossas páginas."
+    },
+    "leads": {
+      "title": "Coleta de leads",
+      "text": "Eventuais contatos comerciais (leads) são coletados exclusivamente por meio dos LinkedIn Lead Gen Forms, dentro da plataforma do LinkedIn. Quando você opta por enviar seus dados através desses formulários, as informações são tratadas de acordo com esta política e com os termos do próprio LinkedIn."
+    },
+    "usage": {
+      "title": "Uso dos dados",
+      "text": "Os dados coletados via LinkedIn Lead Gen Forms — nome, e-mail e telefone — são utilizados apenas para fins de contato comercial, ou seja, para que nossa equipe possa retornar o interesse demonstrado e apresentar nossas soluções. Não utilizamos esses dados para nenhuma outra finalidade."
+    },
+    "sharing": {
+      "title": "Compartilhamento",
+      "text": "Não compartilhamos seus dados com terceiros, salvo quando houver obrigação legal ou determinação de autoridade competente. Seus dados são tratados em conformidade com a Lei Geral de Proteção de Dados (LGPD)."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Política de Cookies",
+    "lastUpdatedLabel": "Última atualização",
+    "lastUpdated": "29/05/2026",
+    "intro": {
+      "title": "Uso atual de cookies",
+      "text": "Atualmente, este site não utiliza cookies. Não realizamos rastreamento, coleta de estatísticas de navegação nem armazenamento de preferências por meio de cookies."
+    },
+    "future": {
+      "title": "Uso futuro de cookies",
+      "text": "Caso, no futuro, sejam adicionados cookies (por exemplo, de analytics, marketing ou preferências), você será devidamente informado e poderá consentir antes que eles sejam ativados, conforme exigido pela legislação."
+    },
+    "types": {
+      "title": "Tipos de cookies",
+      "essential": "Cookies essenciais: necessários para o funcionamento básico do site. Quando utilizados, são indispensáveis e não dependem de consentimento.",
+      "optional": "Cookies opcionais: usados para estatísticas, análise de uso e marketing. Só serão ativados mediante o seu consentimento."
+    },
+    "transparency": {
+      "title": "Nota de transparência",
+      "text": "Este site pode vir a utilizar cookies no futuro para melhorar a experiência do usuário, sempre em conformidade com a LGPD."
     }
   }
 }

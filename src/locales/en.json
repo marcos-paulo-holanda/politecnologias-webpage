@@ -102,7 +102,10 @@
     "businessIntelligence": "Business Intelligence",
     "customSoftware": "Custom Software",
     "dataScience": "Data Science",
-    "rpaAutomation": "RPA Automation"
+    "rpaAutomation": "RPA Automation",
+    "privacy": "Privacy",
+    "sitePolicy": "Site Policy",
+    "cookiePolicy": "Cookie Policy"
   },
   "portfolio": {
     "title": "Project Portfolio",
@@ -329,6 +332,49 @@
         "optimization": "Route Optimization",
         "warehouse": "Warehouse Management"
       }
+    }
+  },
+  "sitePolicy": {
+    "title": "Site Policy",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "29/05/2026",
+    "intro": {
+      "title": "About this site",
+      "text": "This is an institutional website of Politec, created to present our company, services and solutions. The site does not collect personal data directly from visitors: there are no registration forms, login areas or information-capture mechanisms on our pages."
+    },
+    "leads": {
+      "title": "Lead collection",
+      "text": "Any commercial contacts (leads) are collected exclusively through LinkedIn Lead Gen Forms, within the LinkedIn platform. When you choose to submit your data through these forms, the information is handled in accordance with this policy and LinkedIn's own terms."
+    },
+    "usage": {
+      "title": "Use of data",
+      "text": "The data collected via LinkedIn Lead Gen Forms — name, email and phone number — is used only for commercial contact purposes, so that our team can follow up on the interest shown and present our solutions. We do not use this data for any other purpose."
+    },
+    "sharing": {
+      "title": "Sharing",
+      "text": "We do not share your data with third parties, except where there is a legal obligation or a request from a competent authority. Your data is processed in compliance with the Brazilian General Data Protection Law (LGPD)."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "29/05/2026",
+    "intro": {
+      "title": "Current use of cookies",
+      "text": "This site currently does not use cookies. We do not perform tracking, collect browsing statistics or store preferences through cookies."
+    },
+    "future": {
+      "title": "Future use of cookies",
+      "text": "If cookies are added in the future (for example, analytics, marketing or preferences), you will be duly informed and will be able to consent before they are activated, as required by law."
+    },
+    "types": {
+      "title": "Types of cookies",
+      "essential": "Essential cookies: necessary for the basic functioning of the site. When used, they are indispensable and do not depend on consent.",
+      "optional": "Optional cookies: used for statistics, usage analysis and marketing. They will only be activated with your consent."
+    },
+    "transparency": {
+      "title": "Transparency note",
+      "text": "This site may use cookies in the future to improve the user experience, always in compliance with the LGPD."
     }
   }
 }

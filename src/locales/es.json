@@ -102,7 +102,10 @@
     "businessIntelligence": "Business Intelligence",
     "customSoftware": "Software Personalizado",
     "dataScience": "Ciencia de Datos",
-    "rpaAutomation": "Automatización RPA"
+    "rpaAutomation": "Automatización RPA",
+    "privacy": "Privacidad",
+    "sitePolicy": "Política del Sitio",
+    "cookiePolicy": "Política de Cookies"
   },
   "portfolio": {
     "title": "Portafolio de Proyectos",
@@ -329,6 +332,49 @@
         "optimization": "Optimización de Rutas",
         "warehouse": "Gestión de Almacén"
       }
+    }
+  },
+  "sitePolicy": {
+    "title": "Política del Sitio",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdated": "29/05/2026",
+    "intro": {
+      "title": "Sobre este sitio",
+      "text": "Este es un sitio institucional de Politec, creado para presentar nuestra empresa, servicios y soluciones. El sitio no recopila datos personales directamente de los visitantes: no hay formularios de registro, áreas de inicio de sesión ni mecanismos de captura de información en nuestras páginas."
+    },
+    "leads": {
+      "title": "Recopilación de leads",
+      "text": "Los eventuales contactos comerciales (leads) se recopilan exclusivamente a través de los LinkedIn Lead Gen Forms, dentro de la plataforma de LinkedIn. Cuando usted decide enviar sus datos mediante estos formularios, la información se trata de acuerdo con esta política y con los términos del propio LinkedIn."
+    },
+    "usage": {
+      "title": "Uso de los datos",
+      "text": "Los datos recopilados a través de LinkedIn Lead Gen Forms — nombre, correo electrónico y teléfono — se utilizan únicamente con fines de contacto comercial, para que nuestro equipo pueda responder al interés mostrado y presentar nuestras soluciones. No utilizamos estos datos para ninguna otra finalidad."
+    },
+    "sharing": {
+      "title": "Compartición",
+      "text": "No compartimos sus datos con terceros, salvo cuando exista una obligación legal o una determinación de una autoridad competente. Sus datos se tratan de conformidad con la Ley General de Protección de Datos (LGPD)."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Política de Cookies",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdated": "29/05/2026",
+    "intro": {
+      "title": "Uso actual de cookies",
+      "text": "Actualmente, este sitio no utiliza cookies. No realizamos seguimiento, recopilación de estadísticas de navegación ni almacenamiento de preferencias mediante cookies."
+    },
+    "future": {
+      "title": "Uso futuro de cookies",
+      "text": "Si en el futuro se agregan cookies (por ejemplo, de analítica, marketing o preferencias), usted será debidamente informado y podrá dar su consentimiento antes de que se activen, conforme exige la legislación."
+    },
+    "types": {
+      "title": "Tipos de cookies",
+      "essential": "Cookies esenciales: necesarias para el funcionamiento básico del sitio. Cuando se utilizan, son indispensables y no dependen del consentimiento.",
+      "optional": "Cookies opcionales: utilizadas para estadísticas, análisis de uso y marketing. Solo se activarán con su consentimiento."
+    },
+    "transparency": {
+      "title": "Nota de transparencia",
+      "text": "Este sitio podrá utilizar cookies en el futuro para mejorar la experiencia del usuario, siempre en conformidad con la LGPD."
     }
   }
 }

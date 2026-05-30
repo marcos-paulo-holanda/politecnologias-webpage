@@ -8,6 +8,8 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import Segments from "./pages/Segments";
 import News from "./pages/News";
+import SitePolicy from "./pages/SitePolicy";
+import CookiePolicy from "./pages/CookiePolicy";
 import NotFound from "./pages/NotFound";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import "./i18n";
@@ -27,6 +29,8 @@ const App = () => (
             <Route path="/o-que-fazemos" element={<Services />} />
             <Route path="/segmentos" element={<Segments />} />
             <Route path="/noticias" element={<News />} />
+            <Route path="/politica-de-site" element={<SitePolicy />} />
+            <Route path="/politica-de-cookies" element={<CookiePolicy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

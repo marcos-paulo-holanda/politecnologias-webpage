@@ -1,4 +1,5 @@
 import { Linkedin, Instagram, Mail, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 import politecLogo from "@/assets/politec-logo.jpeg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -8,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -57,7 +58,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/company/politec-nologias/?viewAsMember=true" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-muted hover:bg-gradient-primary hover:text-white flex items-center justify-center transition-all duration-300"
+                  className="w-10 h-10 rounded-lg bg-muted hover:bg-gradient-primary hover:text-brand-ink flex items-center justify-center transition-all duration-300"
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
@@ -65,12 +66,29 @@ const Footer = () => {
                   href="https://instagram.com/politec.nologias" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-muted hover:bg-gradient-primary hover:text-white flex items-center justify-center transition-all duration-300"
+                  className="w-10 h-10 rounded-lg bg-muted hover:bg-gradient-primary hover:text-brand-ink flex items-center justify-center transition-all duration-300"
                 >
                   <Instagram className="h-5 w-5" />
                 </a>
               </div>
             </div>
+          </div>
+
+          {/* Privacy / Policies */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-foreground">{t('footer.privacy')}</h3>
+            <ul className="space-y-2 text-muted-foreground">
+              <li>
+                <Link to="/politica-de-site" className="hover:text-primary transition-colors">
+                  {t('footer.sitePolicy')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/politica-de-cookies" className="hover:text-primary transition-colors">
+                  {t('footer.cookiePolicy')}
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
 
